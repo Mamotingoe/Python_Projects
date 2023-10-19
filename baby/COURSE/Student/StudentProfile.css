@@ -1,0 +1,67 @@
+.navbar navbar-expand-lg navbar-dark mb-3{
+  background-color: purple;
+}
+
+:root{
+  --primary-color: white;
+   --secondary-color: purple;
+  
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+} 
+
+#icon
+{
+  width:30px;
+  cursor: pointer;
+}
+.bg1{
+    background-color: purple; 
+  }
+.licolor
+{
+    background:purple ;
+    width:175px;
+}     
+body{
+  font-size: 13px;
+  /* background-image: url('../img/blueedition.jpg');  */
+   background: var(--primary-color);
+  margin: 0;
+  /* background-repeat: no-repeat; */
+}
+.listhover a{
+  color:white;
+  margin-bottom: 2px;
+  font-size: 10pt;
+  height: 13px;
+  font-weight: bold;
+ 
+}
+.listhover a:hover{
+    background-color: #00c0c0;
+}
+.exclusive strong{
+  width: 170px;
+  font-family: 'Exo', sans-serif;
+    font-size: 8px;
+}
+
+.navhover li:hover{
+  background-color: #00c0c0;
+}
+
+.bordernav{
+/* border-collapse: separate;
+text-indent: initial;
+border-spacing: 2px; */
+border-right-style: solid;
+border-right-width: thin;
+background-color: purple;
+}
+.bordernav2{
+  border-right: double;
+  border-spacing: 2px;
+}

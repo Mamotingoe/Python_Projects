@@ -1,0 +1,120 @@
+/* Update background color */
+.bg {
+  background-color: #f1ecf2; /* Wits University color */
+}
+
+/* Update background image */
+.inbox {
+  background-image: url("../img/Wits_Logo.png"); /* Wits University logo */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 1;
+  height: 480px;
+  width: 900px;
+  margin: 5% auto;
+  padding: 20px;
+  border-radius: 4px;
+  position: relative;
+}
+
+/* Update body background color */
+body {
+  /* background-color: #f1ecf2; /* Wits University color */
+  color: white;
+}
+
+/* Container for the content */
+.background-img {
+  opacity: 1;
+  height: 480px;
+  width: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 5% auto;
+  padding: 20px;
+  border-radius: 4px;
+  position: relative;
+  background-image: url("../img/Wits_Background.png"); /* Wits University background */
+}
+
+/* Box styles */
+.box {
+  /* Update background color */
+  background: #111845a6; /* Wits University color */
+  /* Update box shadow */
+  box-shadow: 0 20px 50px rgba(9, 0, 0, 0.5);
+  border: 2px solid #f1ecf2; /* Wits University color */
+  color: white;
+  padding: 20px;
+}
+
+/* Box pseudo-element styles */
+.box:before {
+  /* Update background color */
+  background: #f1ecf2; /* Wits University color */
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+/* Form field styles */
+.form-control1,
+.form-control2,
+.btn {
+  width: 100%; /* Update width to be responsive */
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  border-bottom: 2px solid #f1ecf2; /* Wits University color */
+  background-color: transparent; /* Transparent background */
+  color: white;
+}
+
+/* Button styles */
+.btn-primary {
+  background-color: #f1ecf2; /* Wits University color */
+  color: white;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* Media query for mobile responsiveness */
+@media (min-width: 768px) {
+  .modal-xl {
+      width: 100%;
+      max-width: 1000px;
+  }
+}
+
+/* Gradient styles */
+.gradient,
+.gradient1 {
+  /* Update background image */
+  background-image: url("../img/Wits_Logo.png"); /* Wits University logo */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Login form styles */
+.login-form {
+  width: 340px;
+  margin: 50px auto;
+  font-size: 15px;
+}
+
+.login-form form {
+  margin-bottom: 15px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+}
+
+.login-form h2 {
+  margin: 0 0 15px;
+}
+
+/* Checkbox styles */
+.form-check-label {
+  color: white;
+} 
