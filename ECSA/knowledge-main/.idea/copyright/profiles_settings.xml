@@ -1,0 +1,8 @@
+<component name="CopyrightManager">
+  <settings default="Copyright">
+    <module2copyright>
+      <element module="Typescript Files" copyright="Copyright" />
+      <element module="HTML Files" copyright="Copyright" />
+    </module2copyright>
+  </settings>
+</component>

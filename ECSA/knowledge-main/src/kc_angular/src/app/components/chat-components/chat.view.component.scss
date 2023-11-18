@@ -1,0 +1,33 @@
+.user-message {
+  background-color: var(--primary-color) !important;
+  color: var(--primary-color-text) !important;
+  border-radius: 10px;
+  padding: 0 10px 0 10px;
+  margin: 10px;
+  text-align: right;
+  max-width: 80%;
+}
+
+.agent-message {
+  color: var(--primary-color) !important;
+  background-color: var(--primary-color-text) !important;
+  border-radius: 10px;
+  padding: 0 10px 0 10px;
+  margin: 10px;
+  text-align: left;
+  max-width: 80%;
+}
+
+#chat-toolbar {
+  height: 2rem;
+  background-color: var(--surface-ground);
+}
+
+.next-question-suggestion:hover {
+  opacity: 1 !important;
+}
+
+.html2canvas-container {
+  width: 3000px !important;
+  height: 3000px !important;
+}
